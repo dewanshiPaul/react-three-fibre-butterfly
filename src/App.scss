@@ -1,0 +1,48 @@
+.app-container {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    //extra
+    height: 25vh;
+    background: linear-gradient(
+        rgba(0,0,0,1),
+        rgba(0,0,0,0)
+      );
+
+    // &::before {
+    //   content: '';
+    //   position: absolute;
+    //   top: 0px;
+    //   left: 0px;
+    //   right: 0px;
+    //   background: linear-gradient(
+    //     rgba(0,0,0,1),
+    //     rgba(0,0,0,0)
+    //   );
+    //   height: 25vh;
+    //   z-index: -1;
+    //   pointer-events: none;
+    // }
+
+    img {
+      height: 40px;
+      width: 40px;
+      background: transparent;
+    }
+  }
+
+  .app-canvas {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+}
+

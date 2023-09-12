@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    color: white;
+    background-color: transparent;
+    
+    .row {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 65vh;
+        // position: absolute;
+        // width: 100vw;
+        // height: 100vh;
+
+        .col {
+            padding-left: 30px;
+            padding-right: 30px;
+            .para-1 {
+                padding-top: 25vh;
+            }
+        }
+    }
+}
